@@ -1,1 +1,50 @@
 @import url(./global.css);
+
+body {
+    /* Padding Basic */
+    padding: 0 10%;
+}
+
+/* Header */
+
+.headerPage {
+    /* Flex */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    /* Size */
+    max-width: 100vw;
+    height: 10vh;
+
+    /* Font */
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.navLinks {
+    /* Flex */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+
+    /* Size */
+    width: 100%;
+}
+
+.links {
+    /* Flex */
+    display: flex;
+}
+
+.linksInsideThePage {
+    /* Flex*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* Size */
+    height: 10vh;
+    width: 12vw;
+}

@@ -9,6 +9,15 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    background-color: var(--header-footer-bg-color);
+}
+
 :root {
-    --main-bg-color: #545454 --secundary-bg-color: #76947F --third-bg-color: #D9D9D9 --header-footer-bg-color: #ADAD9C --font-primery-color: #000 --font-secundary-color: #FFF
+    --main-bg-color: #545454;
+    --secundary-bg-color: #76947F;
+    --third-bg-color: #D9D9D9;
+    --header-footer-bg-color: #ADAD9C;
+    --font-primery-color: #000;
+    --font-secundary-color: #FFF
 }
