@@ -47,4 +47,14 @@ body {
     /* Size */
     height: 10vh;
     width: 12vw;
+
+    /* Configs */
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+.linksInsideThePage:hover {
+    color: var(--font-secundary-color);
+    border-bottom: 3px solid var(--font-secundary-color);
+    border-radius: 5px;
 }
