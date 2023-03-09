@@ -1,10 +1,4 @@
 @import url(./global.css);
-
-body {
-    /* Padding Basic */
-    padding: 0 10%;
-}
-
 /* Header */
 
 .headerPage {
@@ -20,6 +14,10 @@ body {
     /* Font */
     font-size: 1.2rem;
     font-weight: 500;
+
+    /* Basic Padding */
+    padding: var(--padding-global);
+
 }
 
 .navLinks {
@@ -60,3 +58,73 @@ body {
 }
 
 /* Main */
+
+.main {
+    /* Flex */
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.welcomeMain {
+    /* Flex */
+    display: flex;
+
+    /* Size */
+    width: 100vw;
+
+    /* BG Color */
+    background-color: var(--main-bg-color);
+
+    /* Padding */
+    padding: var(--padding-global);
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.titleWelcome {
+    /* Font */
+    color: var(--font-primery-color);
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+
+    /* padding */
+    padding: 15px 0;
+
+    /* BG */
+    background-color: var(--third-bg-color);
+
+    /* Border */
+    border-radius: 25px 25px 0 0;
+}
+
+.paragraphWelcome {
+    /* Flex */
+    display: flex;
+    align-items: center;
+
+    /* Font */
+    text-align: justify;
+    color: var(--font-secundary-color);
+    font-size: 1rem;
+    font-weight: 400;
+
+    /* Padding */
+    padding: 1rem 20%;
+
+    /* BG */
+    background-color: var(--secundary-bg-color);
+
+    /* Size */
+    height: 350px;
+
+    /* Border */
+    border-radius: 0 0 25px 25px;
+}
+
+.stickerWelcome {
+    /* Size */
+    height: 350px;
+}
