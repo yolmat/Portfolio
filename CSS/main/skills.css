@@ -1,0 +1,44 @@
+.skillsMain {
+    /* Flex */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    /* Size */
+    height: 60vh;
+
+    /* Padding */
+    padding: var(--padding-global);
+
+    /* BG */
+    background-color: var(--secundary-bg-color);
+}
+
+.skillsSection {
+    /* Flex */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    -webkit-box-shadow: inset 0px 0px 50px -10px rgba(0, 0, 0, 0.8);
+    box-shadow: inset 0px 0px 50px -10px rgba(0, 0, 0, 0.8);
+    border-radius: 25px;
+    padding: 1rem;
+
+
+    /* Transition */
+    transition: transform 0.7s ease-in-out;
+}
+
+.skillsSection img {
+    /* Size */
+    width: 6rem;
+    height: 6rem;
+}
+
+.skillsSection:hover {
+    transform: scale(2);
+}
