@@ -1,0 +1,53 @@
+.welcomeMain {
+    /* Flex */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    /* Size */
+    height: 90vh;
+
+    /* Padding */
+    padding: var(--padding-global);
+}
+
+.text {
+    /* Size */
+    height: 459px;
+}
+
+.titleWelcome {
+    /* Font */
+    text-align: center;
+    color: var(--font-primery-color);
+    font-size: 2.5rem;
+    font-weight: 600;
+
+    /* BG */
+    background-color: var(--third-bg-color);
+
+    /* Boder */
+    border-radius: 25px 25px 0 0;
+
+    /* Padding */
+    padding: 15px 0;
+}
+
+.paragraphWelcome {
+    /* Size */
+    height: 100%;
+
+    /* BG */
+    background-color: var(--secundary-bg-color);
+
+    /* Padding */
+    padding: 25px 30px;
+
+    /* Font */
+    font-weight: 500;
+    text-align: justify;
+    font-size: 1.4rem;
+
+    /* Border */
+    border-radius: 0 0 25px 25px;
+}

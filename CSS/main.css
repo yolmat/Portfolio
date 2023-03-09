@@ -1,0 +1,11 @@
+@import url(./main/welcome.css);
+@import url(./main/skills.css);
+
+.main {
+    /* Flex */
+    display: flex;
+    flex-direction: column;
+
+    /* Magin */
+    margin-left: 8vw;
+}

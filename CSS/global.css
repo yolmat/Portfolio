@@ -9,9 +9,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-body {
-    background-color: var(--header-footer-bg-color);
-}
+
 
 :root {
     --main-bg-color: #545454;
@@ -21,4 +19,12 @@ body {
     --font-primery-color: #000;
     --font-secundary-color: #FFF;
     --padding-global: 0 10%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--main-bg-color);
 }
