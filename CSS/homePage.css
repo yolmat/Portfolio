@@ -1,29 +1,46 @@
 @import url(./global.css);
 /* Header */
 
+body {
+    display: flex;
+}
+
 .headerPage {
     /* Flex */
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    /* BG */
+    background-color: var(--header-footer-bg-color);
 
     /* Size */
-    max-width: 100vw;
-    height: 10vh;
+    width: 8vw;
+    height: 100vh;
 
     /* Font */
     font-size: 1.2rem;
     font-weight: 500;
 
-    /* Basic Padding */
-    padding: var(--padding-global);
+    /* position */
+    position: fixed;
+    z-index: 1;
 
+    /* Transition */
+    transition: width 0.7s ease-in-out;
+
+}
+
+.LogoHeader {
+    width: 100%;
+    max-width: 8vw;
 }
 
 .navLinks {
     /* Flex */
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: flex-end;
 
@@ -34,6 +51,8 @@
 .links {
     /* Flex */
     display: flex;
+    flex-direction: column;
+    gap: 35px;
 }
 
 .linksInsideThePage {
@@ -42,89 +61,48 @@
     align-items: center;
     justify-content: center;
 
+    background-color: aliceblue;
+
     /* Size */
-    height: 10vh;
-    width: 12vw;
+    width: 8vw;
+    height: 5vh;
 
     /* Configs */
-    transition: all .2s ease-in-out;
+    transition: all .7s ease-in-out;
     cursor: pointer;
+
+    text-align: center;
+    white-space: nowrap
 }
 
-.linksInsideThePage:hover {
-    color: var(--font-secundary-color);
-    border-bottom: 3px solid var(--font-secundary-color);
-    border-radius: 5px;
+.linksInsideThePage i {
+    font-size: 2rem;
+    transition: all .7s ease-in-out;
+}
+
+.linksInsideThePage h1 {
+    width: 0;
+    opacity: 0;
+    font-size: 1.2rem;
+    transition: all .7s ease-in-out;
+}
+
+.headerPage:hover {
+    width: 15vw;
+}
+
+.headerPage:hover .linksInsideThePage {
+    width: 15vw;
+}
+
+.linksInsideThePage:hover h1 {
+    width: 100%;
+    opacity: 1;
+}
+
+.linksInsideThePage:hover i {
+    width: 0;
+    opacity: 0;
 }
 
 /* Main */
-
-.main {
-    /* Flex */
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-}
-
-.welcomeMain {
-    /* Flex */
-    display: flex;
-
-    /* Size */
-    width: 100vw;
-
-    /* BG Color */
-    background-color: var(--main-bg-color);
-
-    /* Padding */
-    padding: var(--padding-global);
-    padding-top: 50px;
-    padding-bottom: 50px;
-
-}
-
-.titleWelcome {
-    /* Font */
-    color: var(--font-primery-color);
-    font-size: 1.5rem;
-    font-weight: 600;
-    text-align: center;
-
-    /* padding */
-    padding: 15px 0;
-
-    /* BG */
-    background-color: var(--third-bg-color);
-
-    /* Border */
-    border-radius: 25px 25px 0 0;
-}
-
-.paragraphWelcome {
-    /* Flex */
-    display: flex;
-    align-items: center;
-
-    /* Font */
-    text-align: justify;
-    color: var(--font-secundary-color);
-    font-size: 1rem;
-    font-weight: 400;
-
-    /* Padding */
-    padding: 1rem 20%;
-
-    /* BG */
-    background-color: var(--secundary-bg-color);
-
-    /* Size */
-    height: 350px;
-
-    /* Border */
-    border-radius: 0 0 25px 25px;
-}
-
-.stickerWelcome {
-    /* Size */
-    height: 350px;
-}
