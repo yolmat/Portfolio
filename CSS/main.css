@@ -1,5 +1,6 @@
 @import url(./main/welcome.css);
 @import url(./main/skills.css);
+@import url(./main/projects.css);
 
 .main {
     /* Flex */

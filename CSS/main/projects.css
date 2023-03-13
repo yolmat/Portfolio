@@ -1,0 +1,74 @@
+.projectMain {
+    /*  */
+    display: flex;
+    flex-direction: row;
+
+    /* Padding */
+    padding: var(--padding-global);
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.projectSection {
+    position: relative;
+
+    max-width: calc(92vw - 10%);
+}
+
+.gallery {
+    overflow-x: auto;
+}
+
+.gallery::-webkit-scrollbar {
+    display: none;
+}
+
+.projects {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 10px;
+}
+
+.imgsProjects {
+    width: 60%;
+    flex-shrink: 0;
+    opacity: 0.5;
+}
+
+.current-img {
+    opacity: 1;
+}
+
+.arrowLeft,
+.arrowRight {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    cursor: pointer;
+    border: none;
+    background: linear-gradient(to left, transparent 0%, black 200%);
+    transition: background 0.7s ease-in-out;
+}
+
+.arrowLeft {
+    transform: rotateX(180deg);
+}
+
+.arrowRight {
+    left: auto;
+    right: 0;
+    background: linear-gradient(to right, transparent 0%, black 200%);
+}
+
+.arrowLeft:hover,
+.arrowRight:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.bx {
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+}
