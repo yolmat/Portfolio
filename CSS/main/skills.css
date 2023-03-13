@@ -23,10 +23,15 @@
     justify-content: center;
     gap: 1rem;
 
-    -webkit-box-shadow: inset 0px 0px 50px -10px rgba(0, 0, 0, 0.8);
-    box-shadow: inset 0px 0px 50px -10px rgba(0, 0, 0, 0.8);
-    border-radius: 25px;
-    padding: 1rem;
+    /* Size */
+    padding: 3%;
+
+    /* glass effect */
+    background: rgba(255, 255, 255, 0.22);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.8px);
+    -webkit-backdrop-filter: blur(8.8px);
 
 
     /* Transition */
