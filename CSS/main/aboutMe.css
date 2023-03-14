@@ -1,0 +1,30 @@
+.aboutMeMain {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--secundary-bg-color);
+    border-radius: 25px;
+    padding: var(--padding-global);
+    padding-top: 3%;
+    padding-bottom: 3%;
+    height: max-content;
+}
+
+.aboutMeSection {
+    text-align: center;
+    background-color: var(--third-bg-color);
+    border-radius: 25px;
+}
+
+.aboutMeSection h1 {
+    font-size: 2.5rem;
+    padding: 2.5% 0;
+}
+
+.textAboutMe {
+    display: flex;
+    gap: 30px;
+    text-align: justify;
+    padding: 2% 5%;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
