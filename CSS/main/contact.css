@@ -1,0 +1,31 @@
+.contactMain {
+    padding: var(--padding-global);
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.contactSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2% 0;
+    background-color: var(--secundary-bg-color);
+    border-radius: 25px;
+}
+
+.linksContact {
+    display: flex;
+    align-items: center;
+    padding: 5% 10%;
+    gap: 15px;
+    width: 30rem;
+    border-radius: 25px;
+    border: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.linksContact i {
+    color: var(--font-primery-color);
+    font-size: 2rem;
+}

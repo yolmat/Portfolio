@@ -2,6 +2,7 @@
 @import url(./main/skills.css);
 @import url(./main/projects.css);
 @import url(./main/aboutMe.css);
+@import url(./main/contact.css);
 
 .main {
     /* Flex */
