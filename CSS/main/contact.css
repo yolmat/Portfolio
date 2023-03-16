@@ -1,31 +1,51 @@
 .contactMain {
+    /* Padding */
     padding: var(--padding-global);
     padding-top: 3%;
     padding-bottom: 3%;
 }
 
 .contactSection {
+    /* BG */
+    background-color: var(--secundary-bg-color);
+
+    /* Flex */
     display: flex;
     align-items: center;
     justify-content: space-around;
+
+    /* Padding */
     padding: 2% 0;
-    background-color: var(--secundary-bg-color);
+
+    /* Boder */
     border-radius: 25px;
 }
 
 .linksContact {
+    /* Size */
+    width: 30rem;
+
+    /* Flex*/
     display: flex;
     align-items: center;
-    padding: 5% 10%;
     gap: 15px;
-    width: 30rem;
+
+    /* Padding */
+    padding: 5% 10%;
+
+    /* Font */
+    font-size: 1.1rem;
+
+    /* Border */
     border-radius: 25px;
     border: none;
-    font-size: 1.1rem;
+
+    /* Configs */
     cursor: pointer;
 }
 
 .linksContact i {
+    /* Font */
     color: var(--font-primery-color);
     font-size: 2rem;
 }

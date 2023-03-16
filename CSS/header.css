@@ -1,24 +1,25 @@
 .headerPage {
+
+    /* Size */
+    width: 8vw;
+    height: 100vh;
+
+    /* BG */
+    background-color: var(--header-footer-bg-color);
+
     /* Flex */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
 
-    /* BG */
-    background-color: var(--header-footer-bg-color);
-
-    /* Size */
-    width: 8vw;
-    height: 100vh;
+    /* position */
+    position: fixed;
+    z-index: 1;
 
     /* Font */
     font-size: 1.2rem;
     font-weight: 500;
-
-    /* position */
-    position: fixed;
-    z-index: 1;
 
     /* Transition */
     transition: width 0.7s ease-in-out;
@@ -32,14 +33,16 @@
 }
 
 .navLinks {
+
+    /* Size */
+    width: 100%;
+
     /* Flex */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
 
-    /* Size */
-    width: 100%;
 }
 
 .links {
@@ -50,46 +53,45 @@
 }
 
 .linksInsideThePage {
+
+    /* Size */
+    width: 8vw;
+    height: 5vh;
+
     /* Flex*/
     display: flex;
     align-items: center;
     justify-content: center;
 
-    /* Size */
-    width: 8vw;
-    height: 5vh;
+    /* Font */
+    text-align: center;
+    white-space: nowrap;
 
     /* Transition */
     transition: all .7s ease-in-out;
 
     /* Configs */
     cursor: pointer;
-
-    /* Font */
-    text-align: center;
-    white-space: nowrap
 }
 
 .linksInsideThePage i {
     /* Font */
     font-size: 2rem;
+    color: var(--font-primery-color);
 
     /* Transition */
     transition: all .7s ease-in-out;
-
-    /* Font */
-    color: var(--font-primery-color);
 }
 
 .linksInsideThePage h1 {
     /* Size */
     width: 0;
 
-    /* Config */
-    opacity: 0;
-
     /* Font */
     font-size: 1.2rem;
+
+    /* Config */
+    opacity: 0;
 
     /* Transition */
     transition: all .7s ease-in-out;

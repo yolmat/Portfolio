@@ -17,20 +17,20 @@
 }
 
 .titleWelcome {
+    /* BG */
+    background-color: var(--third-bg-color);
+
+    /* Padding */
+    padding: 15px 0;
+
     /* Font */
     text-align: center;
     color: var(--font-primery-color);
     font-size: 2.5rem;
     font-weight: 600;
 
-    /* BG */
-    background-color: var(--third-bg-color);
-
     /* Boder */
     border-radius: 25px 25px 0 0;
-
-    /* Padding */
-    padding: 15px 0;
 }
 
 .paragraphWelcome {

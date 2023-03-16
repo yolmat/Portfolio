@@ -5,8 +5,6 @@ const maxItens = items.length;
 
 let currentItem = 0;
 
-
-
 controls.forEach(control => {
     function test() {
         const isLeft = control.classList.contains('arrowLeft')

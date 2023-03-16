@@ -1,9 +1,15 @@
 .footer {
+    /* Size */
     width: 100%;
+
+    /* BG */
     background-color: var(--header-footer-bg-color);
+
+    /* Font */
     text-align: center;
 }
 
 .footer img {
+    /* Size */
     max-height: 10vh;
 }

@@ -1,73 +1,95 @@
 .projectMain {
-    /*  */
-    display: flex;
-    flex-direction: row;
-
     /* Padding */
     padding: var(--padding-global);
     padding-top: 5%;
     padding-bottom: 5%;
+
+    /* Flex */
+    display: flex;
+    flex-direction: row;
 }
 
 .projectSection {
-    position: relative;
-
+    /* Size */
     max-width: calc(92vw - 10%);
+
+    /* Position */
+    position: relative;
 }
 
 .gallery {
+    /* OverFlow */
     overflow-x: auto;
 }
 
 .gallery::-webkit-scrollbar {
+    /* Hidden */
     display: none;
 }
 
 .projects {
+    /* Flex */
     display: flex;
     flex-flow: row nowrap;
     gap: 10px;
 }
 
 .imgsProjects {
+    /* Size */
     width: 60%;
     flex-shrink: 0;
+
+    /* Configs */
     opacity: 0.5;
 }
 
 .currentImg {
+    /* Configs*/
     opacity: 1;
 }
 
 .arrowLeft,
 .arrowRight {
+    /* Position */
     position: absolute;
     top: 0;
     left: 0;
     right: auto;
     bottom: 0;
-    cursor: pointer;
-    border: none;
+
+    /* BG */
     background: linear-gradient(to left, transparent 0%, black 200%);
+
+    /* Border */
+    border: none;
+
+    /* Configs */
+    cursor: pointer;
     transition: background 0.7s ease-in-out;
 }
 
 .arrowLeft {
+    /* Config */
     transform: rotateX(180deg);
 }
 
 .arrowRight {
+    /* BG */
+    background: linear-gradient(to right, transparent 0%, black 200%);
+
+    /* Position */
     left: auto;
     right: 0;
-    background: linear-gradient(to right, transparent 0%, black 200%);
 }
 
 .arrowLeft:hover,
 .arrowRight:hover {
+    /* BG */
     background-color: rgba(0, 0, 0, 0.4);
 }
 
 .bx {
+    /* Font */
     font-size: 2rem;
     text-align: center;
     color: #fff;

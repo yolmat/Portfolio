@@ -1,7 +1,16 @@
+/* Section Welcome */
 @import url(./main/welcome.css);
+
+/* Section Skills */
 @import url(./main/skills.css);
+
+/* Section Projects*/
 @import url(./main/projects.css);
+
+/* Section About Me */
 @import url(./main/aboutMe.css);
+
+/* Section Contact */
 @import url(./main/contact.css);
 
 .main {
